@@ -1,0 +1,82 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.nav-tabs .nav-link.active{
+		border-bottom-left-radius: 1rem;
+		border-bottom-right-radius: 1rem;
+	}
+	.my-story{
+		justify-content: center;
+	}
+	.section.testimonials .block {
+    	padding: 4rem 0;
+	}
+	.section.testimonials p,.section.testimonials h5 {
+		text-align: center;
+	}
+	.section.testimonials p {
+    	margin-top: 1rem;
+	}
+	.scroll-to-top{
+		width: 3rem;
+    	height: 3rem;
+    	bottom: 1rem;
+    	right: 1rem;
+	}
+	.header ul {
+		padding: 1rem 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	img.ring {
+    	width: 9%;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 576px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  
+}
